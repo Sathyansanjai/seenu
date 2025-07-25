@@ -53,6 +53,17 @@
 margin-left: 600px;
 
   }
+  @media (max-width: 576px) {
+  .lcon a {
+    font-size: 40px; /* Slightly smaller for mobile */
+    margin-left: 10px;
+  }
+
+  .lcon a:first-child {
+    margin-left: 20px; /* Prevent overflow on small screens */
+  }
+}
+
  .lis{
   display: flex;
   background: inherit;
