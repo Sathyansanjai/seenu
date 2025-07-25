@@ -89,5 +89,8 @@ margin-left: 600px;
 .fot{
   box-shadow: 0 0 30px rgb(245, 248, 248);
 }
+.html{
+    scroll-behavior:smooth;
+}
 
 
